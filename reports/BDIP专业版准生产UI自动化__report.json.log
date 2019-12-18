@@ -1,0 +1,3176 @@
+{
+  "feature": {
+    "uri": "1.首页信息获取.feature",
+    "description": "<剧本描述>获取iOS的安装界面信息与意见反馈界面数据",
+    "keyword": "功能",
+    "name": "获取首页的相关信息",
+    "line": 2,
+    "id": "获取首页的相关信息",
+    "tags": []
+  }
+}{
+  "scenario": {
+    "uri": "1.首页信息获取.feature",
+    "id": "获取首页的相关信息;获取ios安装界面介绍",
+    "keyword": "场景",
+    "line": 5,
+    "name": "获取ios安装界面介绍",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 9569,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 6,
+        "name": "访问到网页'http://pre.bdip.com'",
+        "match": {
+          "location": "step_definitions\\1.首页信息获取.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 6685000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 7,
+        "name": "点击iOS安装说明并跳转到对应的界面",
+        "match": {
+          "location": "step_definitions\\1.首页信息获取.js:13"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2374000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 507000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/1.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "1.首页信息获取.feature",
+    "id": "获取首页的相关信息;获取意见反馈界面信息",
+    "keyword": "场景",
+    "line": 9,
+    "name": "获取意见反馈界面信息",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 3450,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 18000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 10,
+        "name": "访问到网页'http://pre.bdip.com'",
+        "match": {
+          "location": "step_definitions\\1.首页信息获取.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 601000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 11,
+        "name": "点击平台意见反馈直接跳转到对应界面",
+        "match": {
+          "location": "step_definitions\\1.首页信息获取.js:32"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2331000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 500000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/2.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "feature": {
+    "uri": "2.多场景用户登录.feature",
+    "description": "不同情况下登录\n正确的用户名密码\n正确的用户名错误的密码\n错误的用户名正确的密码\n用户名为空\n密码为空",
+    "keyword": "功能",
+    "name": "多个场景的账号登录",
+    "line": 2,
+    "id": "多个场景的账号登录",
+    "tags": []
+  }
+}{
+  "scenario": {
+    "uri": "2.多场景用户登录.feature",
+    "id": "多个场景的账号登录;多场景登录",
+    "keyword": "场景",
+    "line": 18,
+    "name": "多场景登录",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 7564,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 11,
+        "name": "浏览到搜索网站 \"http://pre.bdip.com\"",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:6"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 441000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 12,
+        "name": "用户输入'dingtao'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 83000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 13,
+        "name": "输入'1111'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:16"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 83000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "并且",
+        "line": 14,
+        "name": "点击登录按钮",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:20"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 6261000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 15,
+        "name": "登录'200',校验信息是'丁涛'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:25"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 34000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 662000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/3.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "2.多场景用户登录.feature",
+    "id": "多个场景的账号登录;多场景登录",
+    "keyword": "场景",
+    "line": 19,
+    "name": "多场景登录",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 12482,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 11,
+        "name": "浏览到搜索网站 \"http://pre.bdip.com\"",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:6"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 440000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 12,
+        "name": "用户输入'lihao'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 68000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 13,
+        "name": "输入'1111'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:16"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 62000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "并且",
+        "line": 14,
+        "name": "点击登录按钮",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:20"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 10937000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 15,
+        "name": "登录'200',校验信息是'李好'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:25"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 44000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 931000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/4.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "2.多场景用户登录.feature",
+    "id": "多个场景的账号登录;多场景登录",
+    "keyword": "场景",
+    "line": 20,
+    "name": "多场景登录",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 1868,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 24000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 11,
+        "name": "浏览到搜索网站 \"http://pre.bdip.com\"",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:6"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 463000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 12,
+        "name": "用户输入'dingtao'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 107000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 13,
+        "name": "输入'24324345452423423'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:16"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 117000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "并且",
+        "line": 14,
+        "name": "点击登录按钮",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:20"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 571000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 15,
+        "name": "登录'400',校验信息是'用户名或密码错误'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:25"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 44000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 542000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/5.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "2.多场景用户登录.feature",
+    "id": "多个场景的账号登录;多场景登录",
+    "keyword": "场景",
+    "line": 21,
+    "name": "多场景登录",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 1608,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 11000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 11,
+        "name": "浏览到搜索网站 \"http://pre.bdip.com\"",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:6"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 435000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 12,
+        "name": "用户输入'dingtao21321'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 98000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 13,
+        "name": "输入'1111'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:16"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 70000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "并且",
+        "line": 14,
+        "name": "点击登录按钮",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:20"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 429000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 15,
+        "name": "登录'400',校验信息是'用户名或密码错误'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:25"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 54000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 511000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/6.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "2.多场景用户登录.feature",
+    "id": "多个场景的账号登录;多场景登录",
+    "keyword": "场景",
+    "line": 22,
+    "name": "多场景登录",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 1395,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 11,
+        "name": "浏览到搜索网站 \"http://pre.bdip.com\"",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:6"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 503000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 12,
+        "name": "用户输入''",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 56000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 13,
+        "name": "输入'1111'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:16"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 80000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "并且",
+        "line": 14,
+        "name": "点击登录按钮",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:20"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 113000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 15,
+        "name": "登录'500',校验信息是'请输入用户名！'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:25"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 45000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 598000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/7.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "2.多场景用户登录.feature",
+    "id": "多个场景的账号登录;多场景登录",
+    "keyword": "场景",
+    "line": 23,
+    "name": "多场景登录",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 1244,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 11,
+        "name": "浏览到搜索网站 \"http://pre.bdip.com\"",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:6"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 424000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 12,
+        "name": "用户输入'dingtao'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 82000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 13,
+        "name": "输入''",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:16"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 58000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "并且",
+        "line": 14,
+        "name": "点击登录按钮",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:20"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 120000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 15,
+        "name": "登录'500',校验信息是'请输入密码！'",
+        "match": {
+          "location": "step_definitions\\2.多场景用户登录.js:25"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 54000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 506000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/8.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "feature": {
+    "uri": "3.编辑项目.feature",
+    "description": "对项目信息进行一系列操作",
+    "keyword": "功能",
+    "name": "编辑项目信息",
+    "line": 2,
+    "id": "编辑项目信息",
+    "tags": []
+  }
+}{
+  "scenario": {
+    "uri": "3.编辑项目.feature",
+    "id": "编辑项目信息;编辑项目名称与项目简介信息",
+    "keyword": "场景",
+    "line": 5,
+    "name": "编辑项目名称与项目简介信息",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 6497,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 6,
+        "name": "访问到网页'http://pre.bdip.com'",
+        "match": {
+          "location": "step_definitions\\1.首页信息获取.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 598000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 7,
+        "name": "用户登录（丁涛）",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:6"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 942000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 8,
+        "name": "打开【接口自动化测试项目】的编辑界面",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 718000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 9,
+        "name": "编辑项目名称与简介信息并保存",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:22"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2809000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 10,
+        "name": "刷新当前页面并检查保存的信息是否正确",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:44"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 799000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 631000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/9.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "3.编辑项目.feature",
+    "id": "编辑项目信息;上传项目图片",
+    "keyword": "场景",
+    "line": 12,
+    "name": "上传项目图片",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 7842,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假定",
+        "line": 13,
+        "name": "打开项目设置界面",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:64"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 4064000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 14,
+        "name": "接着点击上传图片按钮",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:87"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3114000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 664000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/10.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "3.编辑项目.feature",
+    "id": "编辑项目信息;编辑项目成员和添加项目自定义信息",
+    "keyword": "场景",
+    "line": 16,
+    "name": "编辑项目成员和添加项目自定义信息",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 12514,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假定",
+        "line": 17,
+        "name": "打开项目设置界面",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:64"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 4457000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 18,
+        "name": "点击放大镜进入项目成员编辑界面",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:99"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 5452000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "并且",
+        "line": 19,
+        "name": "点击【项目参与方】进行添加自定义项目数据",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:119"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1976000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "而且",
+        "line": 20,
+        "name": "编辑项目自定义信息",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:148"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 628000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/11.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "3.编辑项目.feature",
+    "id": "编辑项目信息;被移除项目成员的账号进行登录验证",
+    "keyword": "场景",
+    "line": 22,
+    "name": "被移除项目成员的账号进行登录验证",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 3243,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 23,
+        "name": "当李好登录'http://pre.bdip.com/wui/main.jsp'账号则没有【接口自动化测试】的项目",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:165"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2354000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 889000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/12.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "3.编辑项目.feature",
+    "id": "编辑项目信息;添加项目成员",
+    "keyword": "场景",
+    "line": 25,
+    "name": "添加项目成员",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 27630,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 26,
+        "name": "登录'http://pre.bdip.com/wui/main.jsp'账号打开项目设置",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:181"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 4059000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 27,
+        "name": "搜索人员姓名进行添加项目成员",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:204"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 16801000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 28,
+        "name": "断言项目成员是否正确",
+        "match": {
+          "location": "step_definitions\\3.编辑项目.js:249"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 6194000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 574000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/13.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "feature": {
+    "uri": "4.头部导航栏.feature",
+    "description": "对上述模型分别操作",
+    "keyword": "功能",
+    "name": "头部导航栏：个人信息设置，消息中心，退出",
+    "line": 2,
+    "id": "头部导航栏：个人信息设置，消息中心，退出",
+    "tags": []
+  }
+}{
+  "scenario": {
+    "uri": "4.头部导航栏.feature",
+    "id": "头部导航栏：个人信息设置，消息中心，退出;编辑个人信息",
+    "keyword": "场景",
+    "line": 5,
+    "name": "编辑个人信息",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 10915,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 6,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3840000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 7,
+        "name": "点击个人头像",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:23"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 633000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 8,
+        "name": "点击编辑进行编辑个人信息并保存",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:28"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 5861000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 581000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/14.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "4.头部导航栏.feature",
+    "id": "头部导航栏：个人信息设置，消息中心，退出;历史记录处:打开新建流程，再打开新建文档，此时第一条数据为新建文档的数据",
+    "keyword": "场景",
+    "line": 10,
+    "name": "历史记录处:打开新建流程，再打开新建文档，此时第一条数据为新建文档的数据",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 15917,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 11,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3940000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 12,
+        "name": "点击按钮展开侧边栏",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:58"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 133000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 13,
+        "name": "点击流程管理打开新建流程界面",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:63"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3336000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 14,
+        "name": "再接着点击文档管理---新建文档",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:69"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1950000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 15,
+        "name": "关闭新建文档界面，并打开历史记录界面，此时去点击第一条数据应该为新建文档的界面",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:75"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 6010000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 547000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/15.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "4.头部导航栏.feature",
+    "id": "头部导航栏：个人信息设置，消息中心，退出;先打开模型，再打开任务导入界面，打开新建文档界面，此时从历史记录打开第一条数据则：既打开模型也打开页面",
+    "keyword": "场景",
+    "line": 17,
+    "name": "先打开模型，再打开任务导入界面，打开新建文档界面，此时从历史记录打开第一条数据则：既打开模型也打开页面",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 4767,
+      "status": "failed",
+      "exception": {}
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 18,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3783000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 19,
+        "name": "点击【UI自动化测试】文件夹，打开【建筑AAA模型】",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:99"
+        },
+        "result": {
+          "status": "failed",
+          "duration": 391000000,
+          "error_message": "TypeError: driver.actions(...).contextClick is not a function\n    at options.World.<anonymous> (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\features\\step_definitions\\4.头部导航栏.js:109:28)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 20,
+        "name": "打开【进度管理】-----【任务导入】界面",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:116"
+        },
+        "result": {
+          "status": "skipped"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 21,
+        "name": "点击【文档管理】---【新建文档】页面",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:124"
+        },
+        "result": {
+          "status": "skipped"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "而且",
+        "line": 22,
+        "name": "然后刷新浏览器并且去点击历史记录处第一条数据，也就是新建文档",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:131"
+        },
+        "result": {
+          "status": "skipped"
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 592000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/16.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "4.头部导航栏.feature",
+    "id": "头部导航栏：个人信息设置，消息中心，退出;退出登录提示操作",
+    "keyword": "场景",
+    "line": 24,
+    "name": "退出登录提示操作",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 5285,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 25,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3943000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 26,
+        "name": "点击退出按钮，弹出确认提示框",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:167"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 173000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 27,
+        "name": "点击【确定】按钮，退出到登录界面",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:175"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 591000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 578000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/17.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "4.头部导航栏.feature",
+    "id": "头部导航栏：个人信息设置，消息中心，退出;平台支持相关链接跳转",
+    "keyword": "场景",
+    "line": 29,
+    "name": "平台支持相关链接跳转",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 20780,
+      "status": "failed",
+      "exception": {
+        "name": "NoSuchElementError",
+        "remoteStacktrace": ""
+      }
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 30,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3603000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 31,
+        "name": "点击平台官网跳转到对应的界面",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:184"
+        },
+        "result": {
+          "status": "failed",
+          "duration": 16601000000,
+          "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div.header-wrap > div.header-title > div > div.toolbar > a:nth-child(1)\"}\n  (Session info: chrome=76.0.3809.100)\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 6.1.7601 SP1 x86_64)\n    at Object.checkLegacyResponse (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebDriver.findElement(By(css selector, body > div.header-wrap > div.header-title > div > div.toolbar > a:nth-child(1)))\n    at thenableWebDriverProxy.schedule (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.findElement (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:1014:17)\n    at options.World.<anonymous> (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\features\\step_definitions\\4.头部导航栏.js:195:28)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.getText()\n    at thenableWebDriverProxy.schedule (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElementPromise.schedule_ (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElementPromise.getText (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:2277:17)\n    at options.World.<anonymous> (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\features\\step_definitions\\4.头部导航栏.js:195:129)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 32,
+        "name": "返回到平台再次点击【bdip平台论坛】",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:200"
+        },
+        "result": {
+          "status": "skipped"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 33,
+        "name": "再次返回平台点击【bdip更新日志】",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:220"
+        },
+        "result": {
+          "status": "skipped"
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 575000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/18.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "feature": {
+    "uri": "5.图纸对比.feature",
+    "description": "图纸对比的相关操作\n已经生成对比测试的文件",
+    "keyword": "功能",
+    "name": "2D图纸对比",
+    "line": 2,
+    "id": "2d图纸对比",
+    "tags": []
+  }
+}{
+  "scenario": {
+    "uri": "5.图纸对比.feature",
+    "id": "2d图纸对比;选择相同的2d图纸进行对比",
+    "keyword": "场景",
+    "line": 6,
+    "name": "选择相同的2D图纸进行对比",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 14933,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 7,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 4145000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 8,
+        "name": "点击2D图纸对比按钮",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:9"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3306000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 9,
+        "name": "点击源模型处的【UI自动化】文件夹，选择【2D图纸对比】，选择【会话填充图纸】",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:16"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3363000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 10,
+        "name": "点击对比模型处的【UI自动化】文件夹，点击【2D图纸对比】，选择【会话填充图纸】",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:28"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2311000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "而且",
+        "line": 11,
+        "name": "点击对比按钮弹出提示",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:36"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1233000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 575000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/19.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "5.图纸对比.feature",
+    "id": "2d图纸对比;选择一个不支持对比的模型文件",
+    "keyword": "场景",
+    "line": 13,
+    "name": "选择一个不支持对比的模型文件",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 4273,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 14,
+        "name": "点击【UI自动化】文件夹下的【建筑AAA】模型，弹出提示",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:49"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3880000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 393000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/20.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "5.图纸对比.feature",
+    "id": "2d图纸对比;选择正确的图纸进行对比",
+    "keyword": "场景",
+    "line": 16,
+    "name": "选择正确的图纸进行对比",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 28412,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 17,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3769000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 18,
+        "name": "点击2D图纸对比按钮",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:9"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2206000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 19,
+        "name": "当点击源模型处的【UI自动化】文件夹，点击【2D图纸对比】，选择【会话填充图纸】",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:68"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3363000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 20,
+        "name": "假如当点击对比模型处的【UI自动化】文件夹，点击【2D图纸对比】，选择【建筑图纸对比模型】的第一张图纸",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:79"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2332000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 21,
+        "name": "点击对比按钮，打开对比的界面",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:87"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 16159000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 583000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/21.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "5.图纸对比.feature",
+    "id": "2d图纸对比;历史记录处进行打开",
+    "keyword": "场景",
+    "line": 23,
+    "name": "历史记录处进行打开",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 13820,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 24,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 4118000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 25,
+        "name": "点击2D图纸对比按钮",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:9"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2253000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 26,
+        "name": "点击历史记录打开界面",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:102"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 132000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 27,
+        "name": "点击‘#会话填充图纸(Model)-建筑图纸对比模型(立面__东_422929291)’进行打开到对比的界面",
+        "match": {
+          "location": "step_definitions\\5.图纸对比.js:108"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 6640000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 677000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/22.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "feature": {
+    "uri": "6.数据继承.feature",
+    "description": "多种情况下的数据继承操作",
+    "keyword": "功能",
+    "name": "数据继承相关",
+    "line": 2,
+    "id": "数据继承相关",
+    "tags": []
+  }
+}{
+  "scenario": {
+    "uri": "6.数据继承.feature",
+    "id": "数据继承相关;选择相同的两个文件进行继承操作",
+    "keyword": "场景",
+    "line": 5,
+    "name": "选择相同的两个文件进行继承操作",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 30589,
+      "status": "failed",
+      "exception": {
+        "name": "NoSuchElementError",
+        "remoteStacktrace": ""
+      }
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 9000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 6,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3633000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 7,
+        "name": "点击数据继承按钮",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 4150000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 8,
+        "name": "点击原模型【UI自动化】文件夹选择【建筑AAA】",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:15"
+        },
+        "result": {
+          "status": "failed",
+          "duration": 22232000000,
+          "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"sourceTree_61_span\"]\"}\n  (Session info: chrome=76.0.3809.100)\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 6.1.7601 SP1 x86_64)\n    at Object.checkLegacyResponse (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebDriver.findElement(By(xpath, //*[@id=\"sourceTree_61_span\"]))\n    at thenableWebDriverProxy.schedule (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.findElement (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:1014:17)\n    at options.World.<anonymous> (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\features\\step_definitions\\6.数据继承.js:21:18)\nFrom: Task: WebElement.click()\n    at thenableWebDriverProxy.schedule (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElementPromise.schedule_ (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElementPromise.click (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:2092:17)\n    at options.World.<anonymous> (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\features\\step_definitions\\6.数据继承.js:21:74)"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 9,
+        "name": "勾选目标模型【UI自动化】文件夹选择【建筑AAA】",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:24"
+        },
+        "result": {
+          "status": "skipped"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 10,
+        "name": "全选数据设置",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:30"
+        },
+        "result": {
+          "status": "skipped"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "而且",
+        "line": 11,
+        "name": "点击数据继承",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:34"
+        },
+        "result": {
+          "status": "skipped"
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 565000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/23.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "6.数据继承.feature",
+    "id": "数据继承相关;选择2d图纸进行数据继承",
+    "keyword": "场景",
+    "line": 13,
+    "name": "选择2D图纸进行数据继承",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 21499,
+      "status": "failed",
+      "exception": {
+        "name": "NoSuchElementError",
+        "remoteStacktrace": ""
+      }
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 14,
+        "name": "原模型处选择【dwg图纸】文件夹下的【图纸文字显示】",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:48"
+        },
+        "result": {
+          "status": "failed",
+          "duration": 21089000000,
+          "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"sourceTree_56_span\"]\"}\n  (Session info: chrome=76.0.3809.100)\n  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Windows NT 6.1.7601 SP1 x86_64)\n    at Object.checkLegacyResponse (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebDriver.findElement(By(xpath, //*[@id=\"sourceTree_56_span\"]))\n    at thenableWebDriverProxy.schedule (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.findElement (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:1014:17)\n    at options.World.<anonymous> (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\features\\step_definitions\\6.数据继承.js:52:18)\nFrom: Task: WebElement.click()\n    at thenableWebDriverProxy.schedule (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElementPromise.schedule_ (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElementPromise.click (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\node_modules\\_selenium-webdriver@3.6.0@selenium-webdriver\\lib\\webdriver.js:2092:17)\n    at options.World.<anonymous> (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\features\\step_definitions\\6.数据继承.js:52:74)"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 15,
+        "name": "再选择目标模型处选择【dwg图纸】文件夹下的【图纸文字显示】",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:57"
+        },
+        "result": {
+          "status": "skipped"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 16,
+        "name": "直接点击数据继承按钮出现相应提示",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:63"
+        },
+        "result": {
+          "status": "skipped"
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 410000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/24.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "6.数据继承.feature",
+    "id": "数据继承相关;选择正常的模型进行数据继承操作",
+    "keyword": "场景",
+    "line": 18,
+    "name": "选择正常的模型进行数据继承操作",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 19864,
+      "status": "failed",
+      "exception": {
+        "generatedMessage": true,
+        "name": "AssertionError [ERR_ASSERTION]",
+        "code": "ERR_ASSERTION",
+        "actual": "数据继承中时源模型及目标模型暂时无法访问，其他模型可以正常使用。",
+        "expected": " 数据继承中时源模型及目标模型暂时无法访问，其他模型可以正常使用。",
+        "operator": "=="
+      }
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 19,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 4091000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 20,
+        "name": "点击数据继承按钮",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 4139000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 21,
+        "name": "点击原模型【UI自动化】文件夹选择【建筑AAA】",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:15"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2296000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 22,
+        "name": "勾选目标模型【UI自动化】文件夹选择【建筑BBB】",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:76"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1225000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 23,
+        "name": "全选数据设置",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:30"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 89000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 24,
+        "name": "点击数据继承按钮开始继承",
+        "match": {
+          "location": "step_definitions\\6.数据继承.js:82"
+        },
+        "result": {
+          "status": "failed",
+          "duration": 7301000000,
+          "error_message": "AssertionError [ERR_ASSERTION]: '数据继承中时源模型及目标模型暂时无法访问，其他模型可以正常使用。' == ' 数据继承中时源模型及目标模型暂时无法访问，其他模型可以正常使用。'\n    + expected - actual\n\n    -数据继承中时源模型及目标模型暂时无法访问，其他模型可以正常使用。\n    + 数据继承中时源模型及目标模型暂时无法访问，其他模型可以正常使用。\n\n    at options.World.<anonymous> (F:\\cucumberUI自动化\\BDIP专业版准生产UI自动化\\features\\step_definitions\\6.数据继承.js:96:18)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 723000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/25.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "feature": {
+    "uri": "7.模型目录权限.feature",
+    "description": "上传权限\n重命名权限\n移动权限\n删除权限",
+    "keyword": "功能",
+    "name": "模型目录权限",
+    "line": 2,
+    "id": "模型目录权限",
+    "tags": []
+  }
+}{
+  "scenario": {
+    "uri": "7.模型目录权限.feature",
+    "id": "模型目录权限;删除上传权限一个人员",
+    "keyword": "场景",
+    "line": 8,
+    "name": "删除上传权限一个人员",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 16705,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 9,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 9434000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 10,
+        "name": "点击【模型目录权限】按钮打开界面",
+        "match": {
+          "location": "step_definitions\\7.模型目录权限.js:6"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3491000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 11,
+        "name": "删除人员丁涛并断言",
+        "match": {
+          "location": "step_definitions\\7.模型目录权限.js:14"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3206000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 574000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/26.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "7.模型目录权限.feature",
+    "id": "模型目录权限;删除重命名权限一个人员",
+    "keyword": "场景",
+    "line": 13,
+    "name": "删除重命名权限一个人员",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 5727,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 14,
+        "name": "点击【重命名权限】打开界面",
+        "match": {
+          "location": "step_definitions\\7.模型目录权限.js:46"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2101000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 15,
+        "name": "删除成员杨林晓并断言",
+        "match": {
+          "location": "step_definitions\\7.模型目录权限.js:52"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3200000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 426000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/27.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "7.模型目录权限.feature",
+    "id": "模型目录权限;删除移动权限一个人员",
+    "keyword": "场景",
+    "line": 17,
+    "name": "删除移动权限一个人员",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 5702,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 18,
+        "name": "点击【移动权限】打开界面",
+        "match": {
+          "location": "step_definitions\\7.模型目录权限.js:65"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2114000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 19,
+        "name": "删除成员李好并断言",
+        "match": {
+          "location": "step_definitions\\7.模型目录权限.js:71"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3173000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 415000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/28.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "7.模型目录权限.feature",
+    "id": "模型目录权限;删除-删除权限一个人员",
+    "keyword": "场景",
+    "line": 21,
+    "name": "删除-删除权限一个人员",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 6688,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 22,
+        "name": "点击【删除权限】打开界面",
+        "match": {
+          "location": "step_definitions\\7.模型目录权限.js:84"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3123000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 23,
+        "name": "删除成员何婷婷并断言",
+        "match": {
+          "location": "step_definitions\\7.模型目录权限.js:90"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3172000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 393000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/29.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "7.模型目录权限.feature",
+    "id": "模型目录权限;全员最大化权限",
+    "keyword": "场景",
+    "line": 25,
+    "name": "全员最大化权限",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 4803,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 26,
+        "name": "点击全员最大化权限按钮",
+        "match": {
+          "location": "step_definitions\\7.模型目录权限.js:102"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 4375000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 428000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/30.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "feature": {
+    "uri": "8.模型功能权限.feature",
+    "description": "对模型各个功能模型进行权限控制",
+    "keyword": "功能",
+    "name": "模型功能权限",
+    "line": 2,
+    "id": "模型功能权限",
+    "tags": []
+  }
+}{
+  "scenario": {
+    "uri": "8.模型功能权限.feature",
+    "id": "模型功能权限;属性拓展---创建，删除权限人员的删除操作",
+    "keyword": "场景",
+    "line": 5,
+    "name": "属性拓展---创建，删除权限人员的删除操作",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 13301,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 6,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3533000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 7,
+        "name": "点击【UI自动化文件夹】",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 362000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 8,
+        "name": "勾选【建筑AAA】",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:15"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 100000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 9,
+        "name": "点击模型功能权限按钮打开权限设置界面",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:19"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 325000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 10,
+        "name": "打开【创建权限】界面编辑权限删除属性拓展创建权限所有人员",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:23"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 2757000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 11,
+        "name": "点击确定并断言",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:35"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1506000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 12,
+        "name": "切换到【删除权限】界面",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:50"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 122000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "而且",
+        "line": 13,
+        "name": "点击编辑权限按钮就行删除人员",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:55"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3974000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 622000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/31.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "8.模型功能权限.feature",
+    "id": "模型功能权限;选择两个不同权限人员的模型进行权限设置",
+    "keyword": "场景",
+    "line": 15,
+    "name": "选择两个不同权限人员的模型进行权限设置",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 13385,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 16,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 3342000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 17,
+        "name": "点击【自动化文件夹】展开",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:86"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 286000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 18,
+        "name": "勾选【建筑AAA】与【建筑BBB】模型",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:94"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1221000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "那么",
+        "line": 19,
+        "name": "点击模型功能权限按钮打开权限设置的界面",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:100"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 903000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "而且",
+        "line": 20,
+        "name": "点击确认提示框并添加一个人员【丁涛】，则模型AAA与模型BBB的属性拓展创建人都为【丁涛】",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:109"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 7087000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 546000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/32.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}{
+  "scenario": {
+    "uri": "8.模型功能权限.feature",
+    "id": "模型功能权限;全员最大化权限【建筑aaa】与【建筑bbb】模型",
+    "keyword": "场景",
+    "line": 22,
+    "name": "全员最大化权限【建筑AAA】与【建筑BBB】模型",
+    "tags": [],
+    "type": "scenario",
+    "result": {
+      "duration": 15682,
+      "status": "passed"
+    },
+    "steps": [
+      {
+        "keyword": "Before",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:8"
+        },
+        "result": {
+          "status": "passed"
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 23,
+        "name": "统一打开接口自动化测试项目'http://pre.bdip.com/wui/main.jsp'",
+        "match": {
+          "location": "step_definitions\\4.头部导航栏.js:7"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 4107000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 24,
+        "name": "点击【自动化文件夹】展开",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:86"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 205000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 25,
+        "name": "勾选【建筑AAA】与【建筑BBB】模型",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:94"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 1229000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "假如",
+        "line": 26,
+        "name": "点击模型功能权限直接打开界面，不会出现提示，信息（上一步场景已经设置一样的权限人员）",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:145"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 185000000
+        }
+      },
+      {
+        "arguments": [],
+        "keyword": "当",
+        "line": 27,
+        "name": "点击【全员最大化权限】按钮",
+        "match": {
+          "location": "step_definitions\\8.模型功能权限.js:149"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 9427000000
+        }
+      },
+      {
+        "keyword": "After",
+        "hidden": true,
+        "match": {
+          "location": "support\\hooks.js:12"
+        },
+        "result": {
+          "status": "passed",
+          "duration": 529000000
+        },
+        "embeddings": [
+          {
+            "data": "file://BDIP专业版准生产UI自动化__report/33.png",
+            "mime_type": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}
